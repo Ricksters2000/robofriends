@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders main page 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundry>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundry>
+  </Scroll>
+</div>
+`;
+
+exports[`test loading page 1`] = `
+<h1>
+  Loading
+</h1>
+`;
